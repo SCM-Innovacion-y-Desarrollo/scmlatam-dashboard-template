@@ -11,6 +11,7 @@
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.2",
     "@mui/material": "^5.15.1",
     "axios": "^1.6.2",
     "next": "14.0.4",
@@ -24,5 +25,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/SCM-Innovacion-y-Desarrollo/scmlatam-dashboard-template.git"
-  }  
+  }
 }

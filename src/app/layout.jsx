@@ -1,4 +1,4 @@
-import { ligthTheme } from '@/styles/theme'
+import { ligthTheme, darkTheme } from '@/styles/theme'
 import { Box, CssBaseline, ThemeProvider } from '@mui/material'
 import { Inter } from 'next/font/google'
 
@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
             height: '100vh'
           }}
         >
-          <ThemeProvider theme={ligthTheme}>
+          <ThemeProvider theme={darkTheme}>
             <CssBaseline/>
             {children}
           </ThemeProvider>
