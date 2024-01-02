@@ -8,12 +8,13 @@ import { withThemeFromJSXProvider } from '@storybook/addon-themes';
 
 /* TODO: update import for your custom Material UI themes */
 
-import { lightTheme, darkTheme } from '../src/styles/theme.jsx';
+import { lightTheme, darkTheme, customTheme } from '../src/styles/theme.jsx';
 
 const preview = {
   parameters: {
     actions: { argTypesRegex: "^on[A-Z].*" },
     controls: {
+      expanded: true, // Adds the description and default columns
       matchers: {
         color: /(background|color)$/i,
         date: /Date$/i,
@@ -28,6 +29,7 @@ const preview = {
       // Provide your custom themes here
       light: lightTheme,
       dark: darkTheme,
+      //custom: customTheme
     },
     defaultTheme: 'light',
   })]
